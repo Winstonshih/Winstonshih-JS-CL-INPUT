@@ -42,8 +42,10 @@
          */
 
          // CODE HERE
-         document.getElementById("text").value = "Hello {input}";
-
+         let text=document.getElementById("text")
+         let input=document.getElementById("input")
+         let submit=document.getElementById("submit")
+         submit.onclick="Hello "+input.value
          /* OPTIONAL PRACTICE: If you want more practice later, try taking multiple inputs from a user. For example,
             try taking a first and last name as input from the user. */
     </script>
